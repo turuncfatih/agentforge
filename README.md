@@ -22,10 +22,11 @@ later.
 39 tests · 0 API keys · ~140 ms
 ```
 
-> **Companion repository.** [Agent Team Playbook](https://github.com/turuncfatih/agent-team-playbook) is the same subject from
-> the design side: how to cut a project into agent roles, what each role's task
-> contract must contain, and which model tier each one gets. This repo is the
-> machinery; that one is the judgment.
+> **Companion repositories.** This repo is the machinery. The other two are the
+> judgment and the practice:
+> [Agent Team Playbook](https://github.com/turuncfatih/agent-team-playbook) — how to cut a project into agent roles, what each
+> role's contract must contain, and which model tier each one gets.
+> [Claude Web Workflow](https://github.com/turuncfatih/claude-web-workflow) — one team applied end to end, building a website.
 
 ---
 
