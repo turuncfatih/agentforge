@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AgentForge.Agents/AgentForge.Agents.csproj" />
+    <Project Path="src/AgentForge.Api/AgentForge.Api.csproj" />
+    <Project Path="src/AgentForge.Application/AgentForge.Application.csproj" />
+    <Project Path="src/AgentForge.Domain/AgentForge.Domain.csproj" />
+    <Project Path="src/AgentForge.Infrastructure/AgentForge.Infrastructure.csproj" />
+    <Project Path="src/AgentForge.Llm/AgentForge.Llm.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AgentForge.Application.Tests/AgentForge.Application.Tests.csproj" />
+    <Project Path="tests/AgentForge.Domain.Tests/AgentForge.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
