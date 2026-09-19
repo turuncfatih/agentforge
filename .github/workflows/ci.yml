@@ -1,0 +1,29 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore
+        run: dotnet restore
+
+      # Warnings are errors here, so a build that passes is a build with none.
+      - name: Build
+        run: dotnet build --no-restore -c Release
+
+      # The whole suite runs against a scripted IChatClient: no API key, no
+      # network, no cost. That is the point — see docs/adr/0005.
+      - name: Test
+        run: dotnet test --no-build -c Release --verbosity normal

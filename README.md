@@ -2,6 +2,9 @@
 
 **A multi-agent delivery pipeline in .NET 10 — built the way a production system would be, not the way a demo is.**
 
+[![ci](https://github.com/turuncfatih/agentforge/actions/workflows/ci.yml/badge.svg)](https://github.com/turuncfatih/agentforge/actions/workflows/ci.yml)
+[![licence](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
+
 🇬🇧 English · [🇹🇷 Türkçe](README.tr.md)
 
 Five agents collaborate on a software feature request: an **orchestrator** plans
@@ -18,6 +21,11 @@ later.
 ```
 39 tests · 0 API keys · ~140 ms
 ```
+
+> **Companion repository.** [Agent Team Playbook](https://github.com/turuncfatih/agent-team-playbook) is the same subject from
+> the design side: how to cut a project into agent roles, what each role's task
+> contract must contain, and which model tier each one gets. This repo is the
+> machinery; that one is the judgment.
 
 ---
 
@@ -402,7 +410,7 @@ docs/
 Requires the **.NET 10 SDK**. Nothing else — no API key, no database, no container.
 
 ```bash
-git clone <this-repo> && cd cv-proje
+git clone <repo-url> && cd agentforge
 dotnet test                                  # 39 tests, ~140 ms
 dotnet run --project src/AgentForge.Api
 ```

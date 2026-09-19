@@ -2,6 +2,9 @@
 
 **.NET 10 ile çok ajanlı teslimat hattı — demo gibi değil, üretim sistemi gibi kurgulanmış.**
 
+[![ci](https://github.com/turuncfatih/agentforge/actions/workflows/ci.yml/badge.svg)](https://github.com/turuncfatih/agentforge/actions/workflows/ci.yml)
+[![licence](https://img.shields.io/badge/lisans-MIT-blue.svg)](LICENSE)
+
 [🇬🇧 English](README.md) · 🇹🇷 Türkçe
 
 Beş ajan bir yazılım talebi üzerinde birlikte çalışıyor: **orkestratör** planı
@@ -16,6 +19,11 @@ açıklayabilen denetim izi.
 ```
 39 test · 0 API anahtarı · ~140 ms
 ```
+
+> **Kardeş repo.** [Agent Team Playbook](https://github.com/turuncfatih/agent-team-playbook) aynı konunun tasarım tarafı: bir
+> projeyi ajan rollerine nasıl kesersin, her rolün görev sözleşmesinde ne
+> bulunmalı, hangisine hangi model katmanı verilir. Bu repo makineyi, o repo
+> muhakemeyi gösteriyor.
 
 ---
 
@@ -401,7 +409,7 @@ docs/
 veritabanı yok, container yok.
 
 ```bash
-git clone <bu-repo> && cd cv-proje
+git clone <repo-url> && cd agentforge
 dotnet test                                  # 39 test, ~140 ms
 dotnet run --project src/AgentForge.Api
 ```
