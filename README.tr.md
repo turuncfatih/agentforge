@@ -20,11 +20,11 @@ açıklayabilen denetim izi.
 39 test · 0 API anahtarı · ~140 ms
 ```
 
-> **Kardeş repolar.** Bu repo makineyi gösteriyor; diğer ikisi muhakemeyi ve
-> pratiği:
-> [Agent Team Playbook](https://github.com/turuncfatih/agent-team-playbook) — bir projeyi ajan rollerine nasıl kesersin, her
-> rolün sözleşmesinde ne bulunmalı, hangisine hangi model katmanı verilir.
-> [Claude Web Workflow](https://github.com/turuncfatih/claude-web-workflow) — o yöntemin uçtan uca uygulanmış hali: site yapımı.
+> **Kardeş repolar.** Bu repo makineyi gösteriyor; diğerleri yöntemi ve onun iki
+> uygulamasını.
+> [Agent Team Playbook](https://github.com/turuncfatih/agent-team-playbook) — bir projeyi ajan rollerine nasıl kesersin.
+> [Claude Web Workflow](https://github.com/turuncfatih/claude-web-workflow) — o yöntemin web sitesine uygulanmış hali.
+> [Claude Mobile Workflow](https://github.com/turuncfatih/claude-mobile-workflow) — React Native uygulamasına uygulanmış hali.
 
 ---
 
